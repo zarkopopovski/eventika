@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C03CBD82190F05200CADE5A /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03CBD72190F05200CADE5A /* GlobalData.swift */; };
+		3C1EE4FC21B201E600B9ABCE /* EventEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EE4FB21B201E600B9ABCE /* EventEntity.swift */; };
+		3C1EE4FE21B299DF00B9ABCE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1EE4FD21B299DF00B9ABCE /* MessageUI.framework */; };
+		3C22C6B42190E1BF00F06902 /* CheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22C6B22190E1BF00F06902 /* CheckBoxTableViewCell.swift */; };
+		3C22C6B52190E1BF00F06902 /* CheckBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C22C6B32190E1BF00F06902 /* CheckBoxTableViewCell.xib */; };
+		3C39B91321B3F05E00CB326D /* LocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C39B91221B3F05E00CB326D /* LocationEntity.swift */; };
+		3C39B91B21B45ABD00CB326D /* ApercuLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39B91921B44AC700CB326D /* ApercuLight.otf */; };
+		3C39B91C21B45ABD00CB326D /* ApercuMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39B91A21B44ACA00CB326D /* ApercuMedium.otf */; };
+		3C39B91D21B45ABD00CB326D /* FreightBigLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39B91821B44ABD00CB326D /* FreightBigLight.ttf */; };
+		3C39B91E21B45ABD00CB326D /* FreightBigLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39B91621B44AB700CB326D /* FreightBigLightItalic.ttf */; };
+		3C39B91F21B45ABD00CB326D /* FreightBigMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39B91721B44ABA00CB326D /* FreightBigMedium.ttf */; };
+		3C45C3C421C0840100C51369 /* PaddedUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C45C3C321C0840100C51369 /* PaddedUITextField.swift */; };
+		3C57D3F121979DB200285B31 /* CustomFBLoginButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57D3EF21979DB200285B31 /* CustomFBLoginButtonTableViewCell.swift */; };
+		3C57D3F221979DB200285B31 /* CustomFBLoginButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C57D3F021979DB200285B31 /* CustomFBLoginButtonTableViewCell.xib */; };
+		3C6118CA21A0BBA400207486 /* ArticleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6118C921A0BBA400207486 /* ArticleEntity.swift */; };
+		3C6118CC21A0C7E000207486 /* ArticleDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6118CB21A0C7E000207486 /* ArticleDescriptionViewController.swift */; };
+		3C62517C218C7484002BFE7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C62517B218C7484002BFE7D /* AppDelegate.swift */; };
+		3C625183218C7484002BFE7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C625181218C7484002BFE7D /* Main.storyboard */; };
+		3C625185218C74AB002BFE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C625184218C74AB002BFE7D /* Assets.xcassets */; };
+		3C625188218C74AB002BFE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C625186218C74AB002BFE7D /* LaunchScreen.storyboard */; };
+		3C625196218C8BE7002BFE7D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C625195218C8BE7002BFE7D /* LoginViewController.swift */; };
+		3C625198218C8BF3002BFE7D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C625197218C8BF3002BFE7D /* RegisterViewController.swift */; };
+		3C62519A218C8C4A002BFE7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C625199218C8C4A002BFE7D /* HomeViewController.swift */; };
+		3C767379219CB3050082DA07 /* PlayfairDisplay-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C767378219CB2B70082DA07 /* PlayfairDisplay-Italic.otf */; };
+		3C88C4DA21BDB18700AC455E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C88C4D921BDB18700AC455E /* StoreKit.framework */; };
+		3C88C4DC21BDB1A800AC455E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C88C4DB21BDB1A800AC455E /* GameKit.framework */; };
+		3CA2E20721AAAAD300838561 /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E20521AAAAD300838561 /* ProfileInfoTableViewCell.swift */; };
+		3CA2E20821AAAAD300838561 /* ProfileInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2E20621AAAAD300838561 /* ProfileInfoTableViewCell.xib */; };
+		3CA2E20D21AAB08200838561 /* LabelDisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E20B21AAB08200838561 /* LabelDisplayTableViewCell.swift */; };
+		3CA2E20E21AAB08200838561 /* LabelDisplayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2E20C21AAB08200838561 /* LabelDisplayTableViewCell.xib */; };
+		3CA2E21121AAB20F00838561 /* LabeledTitleArrowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E20F21AAB20F00838561 /* LabeledTitleArrowTableViewCell.swift */; };
+		3CA2E21221AAB20F00838561 /* LabeledTitleArrowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2E21021AAB20F00838561 /* LabeledTitleArrowTableViewCell.xib */; };
+		3CA2E21421AAB7D500838561 /* ProfileDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E21321AAB7D500838561 /* ProfileDetailsViewController.swift */; };
+		3CA40E2F21B666D300651411 /* OptionsFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA40E2E21B666D300651411 /* OptionsFilterViewController.swift */; };
+		3CB49D4821AC60C9007A24FF /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB49D4721AC60C9007A24FF /* ChangePasswordViewController.swift */; };
+		3CB49D4A21AC8645007A24FF /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB49D4921AC8645007A24FF /* EventDetailsViewController.swift */; };
+		3CC7BA0221A211A0007E8A0B /* UserInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7BA0021A211A0007E8A0B /* UserInfoCollectionViewCell.swift */; };
+		3CC7BA0321A211A0007E8A0B /* UserInfoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7BA0121A211A0007E8A0B /* UserInfoCollectionViewCell.xib */; };
+		3CC7BA0521A2288A007E8A0B /* MemberEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7BA0421A2288A007E8A0B /* MemberEntity.swift */; };
+		3CCF76DF218E6C8500B1982F /* FBLoginTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCF76DD218E6C8500B1982F /* FBLoginTableViewCell.swift */; };
+		3CCF76E0218E6C8500B1982F /* FBLoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCF76DE218E6C8500B1982F /* FBLoginTableViewCell.xib */; };
+		3CCF76E4218E75E700B1982F /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCF76E2218E75E700B1982F /* TextInputTableViewCell.swift */; };
+		3CCF76E5218E75E700B1982F /* TextInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCF76E3218E75E700B1982F /* TextInputTableViewCell.xib */; };
+		3CCFDD5121A366C00083B446 /* LabeledCheckmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCFDD4F21A366C00083B446 /* LabeledCheckmarkTableViewCell.swift */; };
+		3CCFDD5221A366C00083B446 /* LabeledCheckmarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCFDD5021A366C00083B446 /* LabeledCheckmarkTableViewCell.xib */; };
+		3CE67CA9218F8CEC00CC14A6 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE67CA7218F8CEC00CC14A6 /* ButtonTableViewCell.swift */; };
+		3CE67CAA218F8CEC00CC14A6 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE67CA8218F8CEC00CC14A6 /* ButtonTableViewCell.xib */; };
+		3CE67CAF218FABC700CC14A6 /* ButtonLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE67CAD218FABC700CC14A6 /* ButtonLinkTableViewCell.swift */; };
+		3CE67CB0218FABC700CC14A6 /* ButtonLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE67CAE218FABC700CC14A6 /* ButtonLinkTableViewCell.xib */; };
+		3CE7D696219B5D7D001EE9DC /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7D695219B5D7D001EE9DC /* BaseTabBarViewController.swift */; };
+		3CEC234121CC341600E7E006 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEC234021CC341600E7E006 /* CalendarViewController.swift */; };
+		3CF81DB6219E3B9C009D433B /* BigImageInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF81DB4219E3B9C009D433B /* BigImageInfoTableViewCell.swift */; };
+		3CF81DB7219E3B9C009D433B /* BigImageInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF81DB5219E3B9C009D433B /* BigImageInfoTableViewCell.xib */; };
+		931C36EC62A7B3F46AC113CF /* Pods_Fiena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D8B7019FBF5DF660DAE390 /* Pods_Fiena.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14DFB25A3A6059CD93D15772 /* Pods-Fiena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fiena/Pods-Fiena.debug.xcconfig"; sourceTree = "<group>"; };
+		3C03CBD72190F05200CADE5A /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		3C1EE4FB21B201E600B9ABCE /* EventEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEntity.swift; sourceTree = "<group>"; };
+		3C1EE4FD21B299DF00B9ABCE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3C22C6B22190E1BF00F06902 /* CheckBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		3C22C6B32190E1BF00F06902 /* CheckBoxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckBoxTableViewCell.xib; sourceTree = "<group>"; };
+		3C39B91221B3F05E00CB326D /* LocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntity.swift; sourceTree = "<group>"; };
+		3C39B91621B44AB700CB326D /* FreightBigLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreightBigLightItalic.ttf; sourceTree = "<group>"; };
+		3C39B91721B44ABA00CB326D /* FreightBigMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreightBigMedium.ttf; sourceTree = "<group>"; };
+		3C39B91821B44ABD00CB326D /* FreightBigLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreightBigLight.ttf; sourceTree = "<group>"; };
+		3C39B91921B44AC700CB326D /* ApercuLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ApercuLight.otf; sourceTree = "<group>"; };
+		3C39B91A21B44ACA00CB326D /* ApercuMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ApercuMedium.otf; sourceTree = "<group>"; };
+		3C45C3C321C0840100C51369 /* PaddedUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedUITextField.swift; sourceTree = "<group>"; };
+		3C57D3EF21979DB200285B31 /* CustomFBLoginButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFBLoginButtonTableViewCell.swift; sourceTree = "<group>"; };
+		3C57D3F021979DB200285B31 /* CustomFBLoginButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFBLoginButtonTableViewCell.xib; sourceTree = "<group>"; };
+		3C6118C921A0BBA400207486 /* ArticleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleEntity.swift; sourceTree = "<group>"; };
+		3C6118CB21A0C7E000207486 /* ArticleDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDescriptionViewController.swift; sourceTree = "<group>"; };
+		3C625178218C7484002BFE7D /* Eventika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C62517B218C7484002BFE7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C625182218C7484002BFE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C625184218C74AB002BFE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C625187218C74AB002BFE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C625189218C74AB002BFE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C625195218C8BE7002BFE7D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C625197218C8BF3002BFE7D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3C625199218C8C4A002BFE7D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C767378219CB2B70082DA07 /* PlayfairDisplay-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic.otf"; sourceTree = "<group>"; };
+		3C88C4D921BDB18700AC455E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3C88C4DB21BDB1A800AC455E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		3C88C4DD21BDB29C00AC455E /* Eventika.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eventika.entitlements; sourceTree = "<group>"; };
+		3CA2E20521AAAAD300838561 /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		3CA2E20621AAAAD300838561 /* ProfileInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoTableViewCell.xib; sourceTree = "<group>"; };
+		3CA2E20B21AAB08200838561 /* LabelDisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDisplayTableViewCell.swift; sourceTree = "<group>"; };
+		3CA2E20C21AAB08200838561 /* LabelDisplayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelDisplayTableViewCell.xib; sourceTree = "<group>"; };
+		3CA2E20F21AAB20F00838561 /* LabeledTitleArrowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTitleArrowTableViewCell.swift; sourceTree = "<group>"; };
+		3CA2E21021AAB20F00838561 /* LabeledTitleArrowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabeledTitleArrowTableViewCell.xib; sourceTree = "<group>"; };
+		3CA2E21321AAB7D500838561 /* ProfileDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsViewController.swift; sourceTree = "<group>"; };
+		3CA40E2E21B666D300651411 /* OptionsFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsFilterViewController.swift; sourceTree = "<group>"; };
+		3CB49D4721AC60C9007A24FF /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		3CB49D4921AC8645007A24FF /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		3CC7BA0021A211A0007E8A0B /* UserInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CC7BA0121A211A0007E8A0B /* UserInfoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CC7BA0421A2288A007E8A0B /* MemberEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberEntity.swift; sourceTree = "<group>"; };
+		3CCF76DD218E6C8500B1982F /* FBLoginTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginTableViewCell.swift; sourceTree = "<group>"; };
+		3CCF76DE218E6C8500B1982F /* FBLoginTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FBLoginTableViewCell.xib; sourceTree = "<group>"; };
+		3CCF76E2218E75E700B1982F /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
+		3CCF76E3218E75E700B1982F /* TextInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextInputTableViewCell.xib; sourceTree = "<group>"; };
+		3CCFDD4F21A366C00083B446 /* LabeledCheckmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledCheckmarkTableViewCell.swift; sourceTree = "<group>"; };
+		3CCFDD5021A366C00083B446 /* LabeledCheckmarkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabeledCheckmarkTableViewCell.xib; sourceTree = "<group>"; };
+		3CE67CA7218F8CEC00CC14A6 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		3CE67CA8218F8CEC00CC14A6 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		3CE67CAD218FABC700CC14A6 /* ButtonLinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLinkTableViewCell.swift; sourceTree = "<group>"; };
+		3CE67CAE218FABC700CC14A6 /* ButtonLinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonLinkTableViewCell.xib; sourceTree = "<group>"; };
+		3CE7D695219B5D7D001EE9DC /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		3CEC234021CC341600E7E006 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3CF81DB4219E3B9C009D433B /* BigImageInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageInfoTableViewCell.swift; sourceTree = "<group>"; };
+		3CF81DB5219E3B9C009D433B /* BigImageInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigImageInfoTableViewCell.xib; sourceTree = "<group>"; };
+		60D9F9277352AF14E766E225 /* Pods-Fiena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fiena.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fiena/Pods-Fiena.release.xcconfig"; sourceTree = "<group>"; };
+		B3D8B7019FBF5DF660DAE390 /* Pods_Fiena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fiena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C625175218C7484002BFE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C88C4DA21BDB18700AC455E /* StoreKit.framework in Frameworks */,
+				3C1EE4FE21B299DF00B9ABCE /* MessageUI.framework in Frameworks */,
+				931C36EC62A7B3F46AC113CF /* Pods_Fiena.framework in Frameworks */,
+				3C88C4DC21BDB1A800AC455E /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C22C6B12190E18600F06902 /* CheckBoxTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C22C6B22190E1BF00F06902 /* CheckBoxTableViewCell.swift */,
+				3C22C6B32190E1BF00F06902 /* CheckBoxTableViewCell.xib */,
+			);
+			path = CheckBoxTableViewCell;
+			sourceTree = "<group>";
+		};
+		3C45C3C221C083CB00C51369 /* PaddedUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				3C45C3C321C0840100C51369 /* PaddedUITextField.swift */,
+			);
+			path = PaddedUITextField;
+			sourceTree = "<group>";
+		};
+		3C57D3EE21979D6500285B31 /* CustomFBLoginButtonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3C57D3EF21979DB200285B31 /* CustomFBLoginButtonTableViewCell.swift */,
+				3C57D3F021979DB200285B31 /* CustomFBLoginButtonTableViewCell.xib */,
+			);
+			path = CustomFBLoginButtonTableViewCell;
+			sourceTree = "<group>";
+		};
+		3C62516F218C7483002BFE7D = {
+			isa = PBXGroup;
+			children = (
+				3C62517A218C7484002BFE7D /* Eventika */,
+				3C625179218C7484002BFE7D /* Products */,
+				CFFD34A1A28A3450A55DA7C1 /* Pods */,
+				F9B26174A9B2B1C499D54AAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C625179218C7484002BFE7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C625178218C7484002BFE7D /* Eventika.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C62517A218C7484002BFE7D /* Eventika */ = {
+			isa = PBXGroup;
+			children = (
+				3C88C4DD21BDB29C00AC455E /* Eventika.entitlements */,
+				3C9F8AEF219F72DA00830BA8 /* Entities */,
+				3CCF76DB218E514600B1982F /* Components */,
+				3C625190218C8BB3002BFE7D /* Resources */,
+				3C62518F218C8BA5002BFE7D /* Controllers */,
+				3C62517B218C7484002BFE7D /* AppDelegate.swift */,
+				3C625181218C7484002BFE7D /* Main.storyboard */,
+				3C625184218C74AB002BFE7D /* Assets.xcassets */,
+				3C625186218C74AB002BFE7D /* LaunchScreen.storyboard */,
+				3C625189218C74AB002BFE7D /* Info.plist */,
+			);
+			path = Eventika;
+			sourceTree = "<group>";
+		};
+		3C62518F218C8BA5002BFE7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC234021CC341600E7E006 /* CalendarViewController.swift */,
+				3C625195218C8BE7002BFE7D /* LoginViewController.swift */,
+				3C625197218C8BF3002BFE7D /* RegisterViewController.swift */,
+				3C625199218C8C4A002BFE7D /* HomeViewController.swift */,
+				3CE7D695219B5D7D001EE9DC /* BaseTabBarViewController.swift */,
+				3C6118CB21A0C7E000207486 /* ArticleDescriptionViewController.swift */,
+				3CA2E21321AAB7D500838561 /* ProfileDetailsViewController.swift */,
+				3CB49D4721AC60C9007A24FF /* ChangePasswordViewController.swift */,
+				3CB49D4921AC8645007A24FF /* EventDetailsViewController.swift */,
+				3CA40E2E21B666D300651411 /* OptionsFilterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C625190218C8BB3002BFE7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C39B91921B44AC700CB326D /* ApercuLight.otf */,
+				3C39B91A21B44ACA00CB326D /* ApercuMedium.otf */,
+				3C39B91821B44ABD00CB326D /* FreightBigLight.ttf */,
+				3C39B91621B44AB700CB326D /* FreightBigLightItalic.ttf */,
+				3C39B91721B44ABA00CB326D /* FreightBigMedium.ttf */,
+				3C767378219CB2B70082DA07 /* PlayfairDisplay-Italic.otf */,
+				3C03CBD72190F05200CADE5A /* GlobalData.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C9F8AEF219F72DA00830BA8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3C6118C921A0BBA400207486 /* ArticleEntity.swift */,
+				3CC7BA0421A2288A007E8A0B /* MemberEntity.swift */,
+				3C1EE4FB21B201E600B9ABCE /* EventEntity.swift */,
+				3C39B91221B3F05E00CB326D /* LocationEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3CA2E20421AAAAB100838561 /* ProfileInfoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2E20521AAAAD300838561 /* ProfileInfoTableViewCell.swift */,
+				3CA2E20621AAAAD300838561 /* ProfileInfoTableViewCell.xib */,
+			);
+			path = ProfileInfoTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CA2E20921AAB06E00838561 /* LabelDisplayTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2E20B21AAB08200838561 /* LabelDisplayTableViewCell.swift */,
+				3CA2E20C21AAB08200838561 /* LabelDisplayTableViewCell.xib */,
+			);
+			path = LabelDisplayTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CA2E20A21AAB06E00838561 /* LabeledTitleArrowTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CA2E20F21AAB20F00838561 /* LabeledTitleArrowTableViewCell.swift */,
+				3CA2E21021AAB20F00838561 /* LabeledTitleArrowTableViewCell.xib */,
+			);
+			path = LabeledTitleArrowTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CC7B9FF21A2117A007E8A0B /* UserInfoCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CC7BA0021A211A0007E8A0B /* UserInfoCollectionViewCell.swift */,
+				3CC7BA0121A211A0007E8A0B /* UserInfoCollectionViewCell.xib */,
+			);
+			path = UserInfoCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3CCF76DB218E514600B1982F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C45C3C221C083CB00C51369 /* PaddedUITextField */,
+				3CA2E20921AAB06E00838561 /* LabelDisplayTableViewCell */,
+				3CA2E20A21AAB06E00838561 /* LabeledTitleArrowTableViewCell */,
+				3CA2E20421AAAAB100838561 /* ProfileInfoTableViewCell */,
+				3CCFDD4E21A366A30083B446 /* LabeledCheckmarkTableViewCell */,
+				3CC7B9FF21A2117A007E8A0B /* UserInfoCollectionViewCell */,
+				3CF81DB3219E3B55009D433B /* BigImageInfoTableViewCell */,
+				3C57D3EE21979D6500285B31 /* CustomFBLoginButtonTableViewCell */,
+				3C22C6B12190E18600F06902 /* CheckBoxTableViewCell */,
+				3CE67CAC218FABAA00CC14A6 /* ButtonLinkTableViewCell */,
+				3CE67CA6218F8C8100CC14A6 /* ButtonTableViewCell */,
+				3CCF76E1218E75D400B1982F /* TextInputTableViewCell */,
+				3CCF76DC218E6C5500B1982F /* FBLoginTableViewCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3CCF76DC218E6C5500B1982F /* FBLoginTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CCF76DD218E6C8500B1982F /* FBLoginTableViewCell.swift */,
+				3CCF76DE218E6C8500B1982F /* FBLoginTableViewCell.xib */,
+			);
+			path = FBLoginTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CCF76E1218E75D400B1982F /* TextInputTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CCF76E2218E75E700B1982F /* TextInputTableViewCell.swift */,
+				3CCF76E3218E75E700B1982F /* TextInputTableViewCell.xib */,
+			);
+			path = TextInputTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CCFDD4E21A366A30083B446 /* LabeledCheckmarkTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CCFDD4F21A366C00083B446 /* LabeledCheckmarkTableViewCell.swift */,
+				3CCFDD5021A366C00083B446 /* LabeledCheckmarkTableViewCell.xib */,
+			);
+			path = LabeledCheckmarkTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CE67CA6218F8C8100CC14A6 /* ButtonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CE67CA7218F8CEC00CC14A6 /* ButtonTableViewCell.swift */,
+				3CE67CA8218F8CEC00CC14A6 /* ButtonTableViewCell.xib */,
+			);
+			path = ButtonTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CE67CAC218FABAA00CC14A6 /* ButtonLinkTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CE67CAD218FABC700CC14A6 /* ButtonLinkTableViewCell.swift */,
+				3CE67CAE218FABC700CC14A6 /* ButtonLinkTableViewCell.xib */,
+			);
+			path = ButtonLinkTableViewCell;
+			sourceTree = "<group>";
+		};
+		3CF81DB3219E3B55009D433B /* BigImageInfoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3CF81DB4219E3B9C009D433B /* BigImageInfoTableViewCell.swift */,
+				3CF81DB5219E3B9C009D433B /* BigImageInfoTableViewCell.xib */,
+			);
+			path = BigImageInfoTableViewCell;
+			sourceTree = "<group>";
+		};
+		CFFD34A1A28A3450A55DA7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14DFB25A3A6059CD93D15772 /* Pods-Fiena.debug.xcconfig */,
+				60D9F9277352AF14E766E225 /* Pods-Fiena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9B26174A9B2B1C499D54AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C88C4DB21BDB1A800AC455E /* GameKit.framework */,
+				3C88C4D921BDB18700AC455E /* StoreKit.framework */,
+				3C1EE4FD21B299DF00B9ABCE /* MessageUI.framework */,
+				B3D8B7019FBF5DF660DAE390 /* Pods_Fiena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C625177218C7484002BFE7D /* Eventika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C62518C218C74AB002BFE7D /* Build configuration list for PBXNativeTarget "Eventika" */;
+			buildPhases = (
+				648B6E35A03C9BBA066AD1C0 /* [CP] Check Pods Manifest.lock */,
+				3C625174218C7484002BFE7D /* Sources */,
+				3C625175218C7484002BFE7D /* Frameworks */,
+				3C625176218C7484002BFE7D /* Resources */,
+				604A98ABC9AFFA4B7AFD2FF0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eventika;
+			productName = Fiena;
+			productReference = 3C625178218C7484002BFE7D /* Eventika.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C625170218C7483002BFE7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = FienaCo;
+				TargetAttributes = {
+					3C625177218C7484002BFE7D = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3C625173218C7483002BFE7D /* Build configuration list for PBXProject "Eventika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C62516F218C7483002BFE7D;
+			productRefGroup = 3C625179218C7484002BFE7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C625177218C7484002BFE7D /* Eventika */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C625176218C7484002BFE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C39B91B21B45ABD00CB326D /* ApercuLight.otf in Resources */,
+				3C39B91C21B45ABD00CB326D /* ApercuMedium.otf in Resources */,
+				3C39B91D21B45ABD00CB326D /* FreightBigLight.ttf in Resources */,
+				3C39B91E21B45ABD00CB326D /* FreightBigLightItalic.ttf in Resources */,
+				3C39B91F21B45ABD00CB326D /* FreightBigMedium.ttf in Resources */,
+				3CCFDD5221A366C00083B446 /* LabeledCheckmarkTableViewCell.xib in Resources */,
+				3C767379219CB3050082DA07 /* PlayfairDisplay-Italic.otf in Resources */,
+				3C22C6B52190E1BF00F06902 /* CheckBoxTableViewCell.xib in Resources */,
+				3CA2E20E21AAB08200838561 /* LabelDisplayTableViewCell.xib in Resources */,
+				3CF81DB7219E3B9C009D433B /* BigImageInfoTableViewCell.xib in Resources */,
+				3C625188218C74AB002BFE7D /* LaunchScreen.storyboard in Resources */,
+				3CE67CAA218F8CEC00CC14A6 /* ButtonTableViewCell.xib in Resources */,
+				3C57D3F221979DB200285B31 /* CustomFBLoginButtonTableViewCell.xib in Resources */,
+				3CCF76E5218E75E700B1982F /* TextInputTableViewCell.xib in Resources */,
+				3CE67CB0218FABC700CC14A6 /* ButtonLinkTableViewCell.xib in Resources */,
+				3CCF76E0218E6C8500B1982F /* FBLoginTableViewCell.xib in Resources */,
+				3C625185218C74AB002BFE7D /* Assets.xcassets in Resources */,
+				3CC7BA0321A211A0007E8A0B /* UserInfoCollectionViewCell.xib in Resources */,
+				3CA2E21221AAB20F00838561 /* LabeledTitleArrowTableViewCell.xib in Resources */,
+				3CA2E20821AAAAD300838561 /* ProfileInfoTableViewCell.xib in Resources */,
+				3C625183218C7484002BFE7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		604A98ABC9AFFA4B7AFD2FF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fiena/Pods-Fiena-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageLoader/ImageLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/PMJSON/PMJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/VACalendar/VACalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VACalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fiena/Pods-Fiena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		648B6E35A03C9BBA066AD1C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fiena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C625174218C7484002BFE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C39B91321B3F05E00CB326D /* LocationEntity.swift in Sources */,
+				3CCFDD5121A366C00083B446 /* LabeledCheckmarkTableViewCell.swift in Sources */,
+				3CEC234121CC341600E7E006 /* CalendarViewController.swift in Sources */,
+				3CB49D4A21AC8645007A24FF /* EventDetailsViewController.swift in Sources */,
+				3C6118CC21A0C7E000207486 /* ArticleDescriptionViewController.swift in Sources */,
+				3CC7BA0521A2288A007E8A0B /* MemberEntity.swift in Sources */,
+				3C625196218C8BE7002BFE7D /* LoginViewController.swift in Sources */,
+				3CE67CAF218FABC700CC14A6 /* ButtonLinkTableViewCell.swift in Sources */,
+				3CF81DB6219E3B9C009D433B /* BigImageInfoTableViewCell.swift in Sources */,
+				3CA2E20721AAAAD300838561 /* ProfileInfoTableViewCell.swift in Sources */,
+				3CE67CA9218F8CEC00CC14A6 /* ButtonTableViewCell.swift in Sources */,
+				3C625198218C8BF3002BFE7D /* RegisterViewController.swift in Sources */,
+				3C6118CA21A0BBA400207486 /* ArticleEntity.swift in Sources */,
+				3CA2E21421AAB7D500838561 /* ProfileDetailsViewController.swift in Sources */,
+				3C57D3F121979DB200285B31 /* CustomFBLoginButtonTableViewCell.swift in Sources */,
+				3C03CBD82190F05200CADE5A /* GlobalData.swift in Sources */,
+				3CA40E2F21B666D300651411 /* OptionsFilterViewController.swift in Sources */,
+				3C1EE4FC21B201E600B9ABCE /* EventEntity.swift in Sources */,
+				3C22C6B42190E1BF00F06902 /* CheckBoxTableViewCell.swift in Sources */,
+				3C62517C218C7484002BFE7D /* AppDelegate.swift in Sources */,
+				3CCF76E4218E75E700B1982F /* TextInputTableViewCell.swift in Sources */,
+				3CE7D696219B5D7D001EE9DC /* BaseTabBarViewController.swift in Sources */,
+				3CA2E21121AAB20F00838561 /* LabeledTitleArrowTableViewCell.swift in Sources */,
+				3CCF76DF218E6C8500B1982F /* FBLoginTableViewCell.swift in Sources */,
+				3C62519A218C8C4A002BFE7D /* HomeViewController.swift in Sources */,
+				3CB49D4821AC60C9007A24FF /* ChangePasswordViewController.swift in Sources */,
+				3C45C3C421C0840100C51369 /* PaddedUITextField.swift in Sources */,
+				3CA2E20D21AAB08200838561 /* LabelDisplayTableViewCell.swift in Sources */,
+				3CC7BA0221A211A0007E8A0B /* UserInfoCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C625181218C7484002BFE7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C625182218C7484002BFE7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C625186218C74AB002BFE7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C625187218C74AB002BFE7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C62518A218C74AB002BFE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C62518B218C74AB002BFE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C62518D218C74AB002BFE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DFB25A3A6059CD93D15772 /* Pods-Fiena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6V35T4B98Q;
+				INFOPLIST_FILE = Fiena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Eventika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "01ce31e3-5bce-449f-8276-828b6b910b26";
+				PROVISIONING_PROFILE_SPECIFIER = "FienaApp Dev";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C62518E218C74AB002BFE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D9F9277352AF14E766E225 /* Pods-Fiena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6V35T4B98Q;
+				INFOPLIST_FILE = Fiena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Bolts\"",
+					"-framework",
+					"\"FBSDKCoreKit\"",
+					"-framework",
+					"\"FBSDKLoginKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Eventika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "65757600-1e96-49a0-bf05-dfda782f87ac";
+				PROVISIONING_PROFILE_SPECIFIER = "FienaApp AdHoc";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C625173218C7483002BFE7D /* Build configuration list for PBXProject "Eventika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C62518A218C74AB002BFE7D /* Debug */,
+				3C62518B218C74AB002BFE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C62518C218C74AB002BFE7D /* Build configuration list for PBXNativeTarget "Eventika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C62518D218C74AB002BFE7D /* Debug */,
+				3C62518E218C74AB002BFE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C625170218C7483002BFE7D /* Project object */;
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FreightBigLightItalic.ttf">
+            <string>FreightBigLightItalic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomFBLoginButtonTableViewCell" rowHeight="228" id="KGk-i7-Jjw" customClass="CustomFBLoginButtonTableViewCell" customModule="Eventika" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="228"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="227.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to your Private App. Get Registered..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPM-Vz-VQH">
+                        <rect key="frame" x="53" y="29" width="213" height="78"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="78" id="meT-8K-Sze"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FreightBigLightItalic" family="FreightBigLightItalic" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9f-Pj-noV">
+                        <rect key="frame" x="22" y="123" width="275" height="38"/>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.32941176470588235" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="130" maxY="0.0"/>
+                        <state key="normal" title="REGISTER WITH FACEBOOK" image="facebook-logo">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="bntCustomFBAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="I4X-k8-bwg"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oXe-Of-4x8">
+                        <rect key="frame" x="22" y="201" width="115" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="XK3-96-Yg1"/>
+                            <constraint firstAttribute="height" constant="1" id="c9V-sR-fI7"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EYh-BZ-5Dc">
+                        <rect key="frame" x="184" y="201" width="113" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="hoE-As-g8R"/>
+                            <constraint firstAttribute="height" constant="1" id="y4Q-GJ-OAd"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flh-EX-Sv0">
+                        <rect key="frame" x="152" y="191" width="16" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="AVj-h6-lhX"/>
+                            <constraint firstAttribute="width" constant="16" id="p6E-VS-dXM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FreightBigLightItalic" family="FreightBigLightItalic" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oXe-Of-4x8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="05D-nx-uQF"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="flh-EX-Sv0" secondAttribute="bottom" constant="5" id="0Qe-9Z-Sdn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="EYh-BZ-5Dc" secondAttribute="bottom" constant="15" id="1D0-9Q-JPC"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="oXe-Of-4x8" secondAttribute="bottom" constant="15" id="2cS-Ag-tZn"/>
+                    <constraint firstItem="flh-EX-Sv0" firstAttribute="leading" secondItem="oXe-Of-4x8" secondAttribute="trailing" constant="15" id="5x4-di-z2w"/>
+                    <constraint firstItem="q9f-Pj-noV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="Go5-Q9-PjU"/>
+                    <constraint firstItem="flh-EX-Sv0" firstAttribute="top" secondItem="q9f-Pj-noV" secondAttribute="bottom" constant="30" id="Jmv-UD-3qW"/>
+                    <constraint firstItem="q9f-Pj-noV" firstAttribute="top" secondItem="xPM-Vz-VQH" secondAttribute="bottom" constant="16" id="QPb-Ol-fBB"/>
+                    <constraint firstItem="EYh-BZ-5Dc" firstAttribute="leading" secondItem="flh-EX-Sv0" secondAttribute="trailing" constant="16" id="XtT-Nr-ELi"/>
+                    <constraint firstItem="xPM-Vz-VQH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="ejH-om-z3X"/>
+                    <constraint firstAttribute="trailing" secondItem="q9f-Pj-noV" secondAttribute="trailing" constant="23" id="fVM-Wu-maJ"/>
+                    <constraint firstItem="xPM-Vz-VQH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="53" id="nnN-1K-Jgu"/>
+                    <constraint firstItem="flh-EX-Sv0" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="nqi-uu-uNV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="EYh-BZ-5Dc" secondAttribute="trailing" constant="7" id="urj-0d-as6"/>
+                    <constraint firstAttribute="trailing" secondItem="xPM-Vz-VQH" secondAttribute="trailing" constant="54" id="xvd-Cd-cX3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnExecute" destination="q9f-Pj-noV" id="2Lf-LW-kW5"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="146"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="facebook-logo" width="21" height="21"/>
+    </resources>
+</document>
