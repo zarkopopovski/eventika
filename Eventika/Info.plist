@@ -21,16 +21,16 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb250267132515284</string>
+				<string></string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>2</string>
 	<key>FacebookAppID</key>
-	<string>250267132515284</string>
+	<string></string>
 	<key>FacebookDisplayName</key>
-	<string>FienaApp</string>
+	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
